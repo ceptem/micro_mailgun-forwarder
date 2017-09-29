@@ -1,0 +1,10 @@
+{
+  "domain": "m.ceptem.com",
+  "privateKey": "key-aabbccddeeff1122334455667788",
+  "publicKey": "pubkey-88776655443322110099aabbccddeeff",
+
+  "from": "contact@ceptem.com",
+  "to": "contact@ceptem.com",
+  "subject": "[{{.Domain}}] {{.Subject}}",
+  "body": "From: {{.From}}\nPhone: {{.Phone}}\n\n{{.Body}}\n"
+}
