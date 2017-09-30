@@ -1,0 +1,11 @@
+*.swp
+*.swo
+.git
+Dockerfile
+.DS_Store
+.gitignore
+README.md
+
+# To prevent storing dev/temporary data in container
+*.csv
+tmp
